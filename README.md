@@ -181,7 +181,7 @@ chmod 600 credentials
 
 ## Step 4 - Register your on-premises instance with AWS CodeDeploy
 
-Now you need to tell AWS CodeDeploy that your on-premises instance exists. Here's the AWS page with more detail: [https://docs.aws.amazon.com/codedeploy/latest/userguide/instances-on-premises-register-instance.html]. This section is a summary of that page.
+Now you need to tell AWS CodeDeploy that your on-premises instance exists. [Here's the AWS page with more detail.](https://docs.aws.amazon.com/codedeploy/latest/userguide/instances-on-premises-register-instance.html) This section is a summary of that page.
 
 You'll need to come up with a name for your on-premises instance, if you don't already have one. We're going to use 'staging-myapp-machine409" for this example, since it specifies the environment ("staging"), the app it's running ("myapp"), and the machine name ("machine409"). 
 
