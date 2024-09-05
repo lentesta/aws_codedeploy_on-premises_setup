@@ -202,6 +202,7 @@ If you want to test CodeDeploy to just this one instance, it's helpful to add a 
 Click the instance name, which is a link, and you'll be shown a new screen. On that screen is a section named "On-premises instances tags." Add a tag with these values:
 
 > Key: instanceName
+> 
 > Value: staging-myapp-machine409
 
 The reason for adding this tag is that you can create a CodeDeploy Deployment Group that includes these on-premises instances, by telling the Deployment Group to look for on-premises instances with instanceName(s) that match whatever you want. We'll do that below.
