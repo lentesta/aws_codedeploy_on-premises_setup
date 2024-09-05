@@ -17,7 +17,7 @@ Prerequites:
   - Superuser or sudo access to that machine
   - An AWS account with permissions to do things like create IAM users, CodeDeploy applications and deployment configurations, etc.
 
-**Step 1 - Create an AWS IAM user with CodeDeploy permissions**
+##Step 1 - Create an AWS IAM user with CodeDeploy permissions
 
   From the AWS Console:
     Click Services > Security, Identity, & Compliance > IAM
