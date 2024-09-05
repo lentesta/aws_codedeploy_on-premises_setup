@@ -10,7 +10,7 @@ This should take you 45-60 minutes to complete if everything goes well.
 ### Assumptions
 You already know how to use CodeDeploy for EC2 instances.
 
-AWS has [two ways of authenticating CodeDeploy requests](https://docs.aws.amazon.com/codedeploy/latest/userguide/on-premises-instances-register.html)
+AWS has [two ways of authenticating CodeDeploy requests](https://docs.aws.amazon.com/codedeploy/latest/userguide/on-premises-instances-register.html):
   - Using an IAM role to authenticate requests. This uses temporary credentials that have to be refreshed periodically with the AWS Security Token Service. It's more work, with more things to go wrong, and is the recommended usecase by AWS, probably for security reasons.
   - Using a IAM User ARN. This is the easier, faster method. If you can easily control physical and network access to your on-premises instance, this might be a valid trade-off.
 
